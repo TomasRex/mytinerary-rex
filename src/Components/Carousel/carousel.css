@@ -1,0 +1,25 @@
+.slide-car{
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+.car-home{
+    justify-content: center;
+}
+
+.car-im{
+    width: 350px;
+    height: 230px !important;
+}
+
+@media (max-width: 670px){
+    .car-im{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    html{
+        max-height: 100vh;
+    }
+    .img-title{
+        font-size: 0.8rem;
+    }
+}

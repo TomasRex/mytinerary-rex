@@ -1,0 +1,23 @@
+.fondo-main{
+  background-image: url(../public/shontz-photography-y4v96Sy2ne4-unsplash.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.hero-main{
+  backdrop-filter: blur(2px);
+}
+
+.login-main{
+  border-left: 1px;
+}
+
+.cities-under{
+  background-size: 100vw 100vh;
+}
+
+@media (max-width: 500px ){
+    .title-main{
+      display: none;
+    }
+}
