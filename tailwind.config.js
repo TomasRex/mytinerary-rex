@@ -7,12 +7,16 @@ module.exports = {
     './src/Components/Carousel/Carousel.jsx',
     './src/Components/Footermain/Footermain.jsx',
     './src/Components/Headermain/Headermain.jsx',
-    './index.html'
+    './index.html',
+    './src/Components/CitiesCards/CitiesCards.jsx',
+    './src/Components/CitiesDetails/CitiesDetails.jsx',
+    './src/Components/SearchCities/SearchCities.jsx'
   ],
   theme: {
     extend: {},
   },
   variants: {},
-  plugins: [],
+  plugins: [
+  ],
 }
 

@@ -4,6 +4,7 @@ import MainLayout from "./layouts/MainLayout"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Cities from './pages/Cities'
 import Error404 from './pages/Error404'
+import CitiesDetails from "./pages/CitiesDetails";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +20,8 @@ const router = createBrowserRouter([
         element: <Cities/>,
       },
       {
-        path: '/cities/:miVariable',
-        element: <Cities/>,
+        path: '/cities/:_id',
+        element: <CitiesDetails/>,
       }
     ]
   },
