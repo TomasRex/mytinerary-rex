@@ -1,5 +1,7 @@
 import React from "react";
 import Carousel from "../Components/Carousel/Carousel";
+import { Link } from "react-router-dom";
+
 
 function Home() {
   return (
@@ -14,12 +16,12 @@ function Home() {
             </strong>
           </h1>
           <div className="mt-4 flex flex-wrap justify-center py-1">
-            <a
+            <Link
               className="border-solid border-2 border-white tracking-wider antialiased w-1/2 bg-gradient-to-r from-[#25c229] to-[#ffd700] hover:bg-gradient-to-br rounded-full text-xl text-white shadow py-2 font-medium"
               href=""
             >
               START PLANNING
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -3,51 +3,51 @@ import {useState, useEffect} from 'react'
 const Carousel = () => {
     const photos = [
         {
-            image: "../../../public/bucarest.jpg",
+            image: "/bucarest.jpg",
             title: "Bucharest, Romania"
         },
         {
-            image: "../../../public/buenosaires.jpg",
+            image: "/buenosaires.jpg",
             title: "Buenos Aires, Argentina"
         },
         {
-            image: "../../../public/estambul.jpg",
+            image: "/estambul.jpg",
             title: "Istambul, Turkey"
         },
         {
-            image: "../../../public/hongkong.jpg",
+            image: "/hongkong.jpg",
             title: "Hongkong, China"
         },
         {
-            image: "../../../public/newyork.jpg",
+            image: "/newyork.jpg",
             title: "New York, USA"
         },
         {
-            image: "../../../public/osaka.jpg",
+            image: "/osaka.jpg",
             title: "Osaka, Japan"
         },
         {
-            image: "../../../public/rio-1.jpeg",
+            image: "/rio-1.jpeg",
             title: "Rio de Janeiro, Brasil"
         },
         {
-            image: "../../../public/rome.jpg",
+            image: "/rome.jpg",
             title: "Rome, Italy"
         },
         {
-            image: "../../../public/santiago.jpg",
+            image: "/santiago.jpg",
             title: "Santiago, Chile"
         },
         {
-            image: "../../../public/sydney.jpg",
+            image: "/sydney.jpg",
             title: "Sydney, Australia"
         },
         {
-            image: "../../../public/taipei.jpg",
+            image: "/taipei.jpg",
             title: "Taipei, Taiwan"
         },
         {
-            image: "../../../public/varsovia.JPG",
+            image: "/varsovia.JPG",
             title: "Warsaw, Poland"
         },
     ]
