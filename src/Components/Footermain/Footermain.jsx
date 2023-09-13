@@ -1,7 +1,7 @@
 
 const Footermain = () => {
   return (
-    <footer className="h-9 w-full bg-[#f9f2ff] fixed bottom-0">
+    <footer className="w-full bg-[#f9f2ff]">
     <div class="w-full p-2 md:flex md:items-center md:justify-between">
       <span class="text text-gray-500 sm:text-center dark:text-gray-400">
         © 2023 MyTinerary . All Rights Reserved.

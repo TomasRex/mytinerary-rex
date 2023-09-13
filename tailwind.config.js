@@ -14,7 +14,11 @@ module.exports = {
     './src/Components/Itineraries/Itineraries.jsx'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'poppins': ['poppins', 'sans-serif']
+      }
+    },
   },
   variants: {},
   plugins: [

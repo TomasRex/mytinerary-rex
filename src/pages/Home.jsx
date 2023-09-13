@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <main className="antialiased flex flex-col flex-grow fondo-main">
+    <main className="antialiased flex flex-col flex-grow fondo-main h-full">
       <div className="mx-auto flex items-center max-w-screen-xl justify-center py-4">
         <div className="mx-auto text-center py-1 px-4 sm:py-6 rounded-3xl sm:px-12 hero-main border-solid border-2 mx-12">
           <h1 className="text-2xl font-extrabold sm:text-3xl text-white">

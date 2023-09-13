@@ -15,10 +15,10 @@ const CitiesDetails = () => {
   }, []);
 
   return (
-    <section class="bg-gray-900 flex grow">
+    <section class="bg-gray-900 flex h-full">
       <div className="grid grids-col-1 w-full">
         <Link
-          className="text-xl text-white bg-green-500 py-2 px-4 mx-20 my-2 rounded inline-flex items-center w-fit h-fit"
+          className="text-xl text-white bg-green-500 py-1 px-3 mx-16 mt-2 rounded inline-flex items-center w-fit h-fit"
           to="/cities"
         >
           Back to cities

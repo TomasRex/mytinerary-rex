@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react'
-import Headermain from "../Components/Headermain/Headermain"
+import HeaderMainAnon from "../Components/Headermain/HeaderMainAnon"
 import Footermain from "../Components/Footermain/Footermain"
 import { Outlet } from 'react-router-dom'
 
-const MainLayout = () => {
+const MainLayoutAnon = () => {
   return (
     <>
     <div className='h-screen flex flex-col font-poppins'>
-        <Headermain/>
+        <HeaderMainAnon/>
         <div className='flex-1'><Outlet/></div>
         <Footermain/>
     </div>
@@ -15,4 +15,4 @@ const MainLayout = () => {
   )
 }
 
-export default MainLayout
+export default MainLayoutAnon

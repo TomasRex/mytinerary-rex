@@ -14,7 +14,7 @@ function Itineraries({data}) {
     }
     console.log(tags)
   return (
-    <div className='border-2 my-4 rounded-lg px-4 py-3 shadow shadow-white'>
+    <div className='border-2 mb-4 mt-4 rounded-lg px-4 py-2 shadow shadow-white'>
         <div className='flex mx-6 justify-between'>
             <div className='flex-row'>
                 <img src={data.photo} alt="" className='rounded-lg w-28 h-28'/>
@@ -37,7 +37,6 @@ function Itineraries({data}) {
         </div>
         <div className='flex justify-end'>
          {tags.map((city) => (<h1 className='px-2 border-2 mx-1 rounded-lg'>{city}</h1>))}
-        {/* <h1 className='text-md text-center'>{data.tags}</h1> */}
         </div>
     </div>
   )
